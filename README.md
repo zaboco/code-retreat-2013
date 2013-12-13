@@ -1,40 +1,14 @@
 # code-retreat
-[![Build Status](https://travis-ci.org/zaboco/code-retreat.png?branch=master)](https://travis-ci.org/zaboco/code-retreat)
 
-Livescript project skeleton
+stub project for coderetreat
 
-Contains a standard configuration for a npm module using:
-  - LiveScript compiling (+ prelude.ls installed)
-  - Mocha + Chai.js + Sinon.js testing
-  - Grunt build system, with some useful plugins
-  - defaults for `package.json`, `.gitignore`, `.npmignore` and `.travis.yml`
-
-Of course, not all of these are always needed, so they can be deleted / disabled.
-
-## Install
-```sh
-$ git clone https://github.com/zaboco/code-retreat.git
-```
-## Initialize a new project
-> **WARNING** it will install all required npm modules globally and then link them inside the new project. This aproach is not very clean, and it will be changed sometime, I just found it useful in my case.
+## Usage
 
 ```sh
-$ cd code-retreat
-$ ./init ../some-project
-
-$ cd ../some-project
-$ grunt --help
+$ git clone git@github.com:zaboco/code-retreat-2013.git
+$ cd code-retreat-2013
+$ npm install
+$ grunt[ watch]
 ```
 
-### Extra
-Install all modules globally and exit
-```sh
-$ ./init global
-```
-
-Link all needed modules in this project.
-_not very useful, except when needing to test that the configuration is working_
-```
-$ ./init link
-$ grunt test # just to check that everything is ok
-```
+Write some tests, save, and see the results. Red-Green-Refactor
