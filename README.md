@@ -1,6 +1,7 @@
 # code-retreat
 
-stub project for coderetreat
+Stub project for coderetreat
+> supports `JavaScript` and `LiveScript`
 
 ## Usage
 
